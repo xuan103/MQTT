@@ -1,6 +1,4 @@
-# MQTT
-
-## 簡介
+# MQTT 簡介
 
 - MQTT(Message Queuing Telemetry Transport) 訊息序列遙測傳輸。
     - 1999年 IBM 發明。
@@ -29,14 +27,14 @@
     - 主題 (Topic)。
     - 轉訊站 (Broker)。
 
-![m1](https://github.com/xuan103/MQTT/blob/main/png/m1.png)
+![m1](https://github.com/xuan103/MQTT/blob/main/document/png/m1.png)
 
 > 發佈者 (Publisher)發佈一個主題，傳送給轉訊站 (Broker)，
 由轉訊站 (Broker) 轉發給訂閱者 (Subscriber)。
 
 >---
 
-![m2](https://github.com/xuan103/MQTT/blob/main/png/m2.png)
+![m2](https://github.com/xuan103/MQTT/blob/main/document/png/m2.png)
 
 ---
 
@@ -47,7 +45,7 @@
     - Variable Header (變動格式封包)。
     - Payload (訊息內文)。
     
-![m3_bit](https://github.com/xuan103/MQTT/blob/main/png/m3_bit.png)
+![m3_bit](https://github.com/xuan103/MQTT/blob/main/document/png/m3_bit.png)
 
 >DUP flag：標記此訊息為重複 (duplicate) 的訊息，會用在 PUBLISH、PUBREL、SUBSCRIBE、UNSUBSCRIBE 上。 ]
 
@@ -67,7 +65,7 @@ MQTT 定義了三個層級的品質設定。
     - Publisher 傳訊給 Broker 後直接轉傳給 Subscriber，不會回傳確認封包。
     - QoS 0 就像寄平信，不保證訊息會送達。
 
-![m4_QoS0](https://github.com/xuan103/MQTT/blob/main/png/m4_QoS0.png)
+![m4_QoS0](https://github.com/xuan103/MQTT/blob/main/document/png/m4_QoS0.png)
 
 >---
 
@@ -80,7 +78,7 @@ MQTT 定義了三個層級的品質設定。
     - 讓訂閱者重複收到相同訊息。
     - 保證訊息會送達，但可能會重複。
 
-![m5_QoS1](https://github.com/xuan103/MQTT/blob/main/png/m5_QoS1.png)
+![m5_QoS1](https://github.com/xuan103/MQTT/blob/main/document/png/m5_QoS1.png)
 
 >---
 
@@ -89,7 +87,7 @@ MQTT 定義了三個層級的品質設定。
     - Publisher 收到 PUBREC 回應時，傳送 PUBREL（釋放發布訊息）。
     - Broker 收到 PUBREL，將訊息發布給 Subscriber，並向 Publisher 回報PUBCOMP。
 
-![m6_QoS2](https://github.com/xuan103/MQTT/blob/main/png/m6_QoS2.png)
+![m6_QoS2](https://github.com/xuan103/MQTT/blob/main/document/png/m6_QoS2.png)
 
 >---
 

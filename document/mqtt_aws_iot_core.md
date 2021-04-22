@@ -10,7 +10,7 @@ AWS IoT 和 AWS IoT 裝置軟體開發套件支援 MQTT 服務品質 (QoS) 層�
 
 此表格說明各個 QoS 層級如何影響訊息發佈至中介裝置的方式，以及訊息中介裝置發佈訊息的方式。
 
-![a1_QoS](https://github.com/xuan103/MQTT/blob/main/png/a1_Q0S.png)
+![a1_QoS](https://github.com/xuan103/MQTT/blob/main/document/png/a1_Q0S.png)
 
 >---
 

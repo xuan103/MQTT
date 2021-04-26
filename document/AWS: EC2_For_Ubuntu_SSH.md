@@ -1,4 +1,9 @@
-# EC2: For Ubuntu_SSH
+|[Back - Chapter 4](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Ubuntu.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter 6](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_MQTT.md)
+---| ---| ---|
+
+---
+
+# Chapter 5-1: EC2: For Ubuntu SSH
 
 - 前置準備作業
     - 一台已連上網路的 Ubuntu / macOS 電腦
@@ -60,7 +65,9 @@
 ---
 ![us7_ssh_ok](https://github.com/xuan103/MQTT/blob/main/document/png/us7_ssh_ok.png)
 
-
+---
+|[Back - Chapter 4](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Ubuntu.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter 6](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_MQTT.md)
+---| ---| ---|
 
 
 

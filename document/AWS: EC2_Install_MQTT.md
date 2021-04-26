@@ -1,7 +1,13 @@
-# EC2 Install Mosquitto MQTT Broker
+|[Back - Chapter 5](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_For_Ubuntu_SSH.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter 7](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_MQTTlens_MQTT.md)
+---| ---| ---|
 
-- 前置準備作業
-    - [AWS: EC2 Install Ubuntu](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Ubuntu.md)
+# Chapter 6: EC2: Install Mosquitto MQTT Broker
+
+---
+
+### 前置準備作業
+
+- [AWS: EC2 Install Ubuntu](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Ubuntu.md)
 
 ---
 
@@ -102,3 +108,8 @@ OR
 - 更多指令內容可以查看:
     - mosquitto_sub --help
     - mosquitto_pub --help
+
+---
+
+|[Back - Chapter 5](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_For_Ubuntu_SSH.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter 7](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_MQTTlens_MQTT.md)
+---| ---| ---|

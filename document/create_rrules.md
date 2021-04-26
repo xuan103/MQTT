@@ -1,4 +1,9 @@
-# Create Rrules
+|[Back - Chapter 2](https://github.com/xuan103/MQTT/blob/main/document/mqtt_aws_iot_core.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter 3-2](https://github.com/xuan103/MQTT/blob/main/document/test_rule.md)
+---| ---| ---|
+
+---
+
+# Chapter 3-1: Create Rrules
 
 1. 開放 [主控台的 AWS IoTRules hub](https://us-west-2.console.aws.amazon.com/iot/home?region=us-west-2#/rulehub) （規則中樞）。
 
@@ -13,6 +18,7 @@
 3. 在 Create a rule （建立規則） 的頂端部分：
 
     a. 在 Name （名稱） 中，輸入規則的名稱。
+
     b. 在 Description （描述） 中描述規則。
 
 * 請記住，規則名稱在您的帳號和區域中必須是唯一的，並且不能有任何空格。我們在此名稱中使用基礎核心字元來分隔規則名稱中的兩個字。
@@ -24,6 +30,7 @@
 4. 在 Create a rule （建立規則） 的規則陳述式中：
 
     a. 在 Using SQL version（使用 SQL 版本） 中，選取 2016-03-23。
+
     b. 在 Rule query statement （規則查詢陳述式）編輯方塊中，輸入 陳述式：
 
 > SELECT topic(2) as device_id, temperature FROM 'device/+/data'
@@ -73,3 +80,6 @@
 
 ![mp6_rules_create_ok](https://github.com/xuan103/MQTT/blob/main/document/png/mp6_rules_create_ok.png)
 
+---
+|[Back - Chapter 2](https://github.com/xuan103/MQTT/blob/main/document/mqtt_aws_iot_core.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter 3-2](https://github.com/xuan103/MQTT/blob/main/document/test_rule.md)
+---| ---| ---|

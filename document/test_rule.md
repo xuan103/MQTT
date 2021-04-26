@@ -1,6 +1,11 @@
-# Test New Rule
+|[Back - Chapter 2](https://github.com/xuan103/MQTT/blob/main/document/mqtt_aws_iot_core.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter 4](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Ubuntu.md)
+---| ---| ---|
 
-### 使用 MQTT 使用者端測試您的規則
+---
+
+# Chapter 3-2: Test Rule
+
+## 使用 MQTT 使用者端測試您的規則
 
 1. 在 主控台的 AWS IoT MQTT 中，訂用輸入主題，在本例中是 `device/+/data`。
 
@@ -126,3 +131,7 @@ cast(topic(2) AS DECIMAL)
 小小補充：
 
 ![tr99](https://github.com/xuan103/MQTT/blob/main/document/png/tr99.png)
+
+---
+|[Back - Chapter 2](https://github.com/xuan103/MQTT/blob/main/document/mqtt_aws_iot_core.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter 4](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Ubuntu.md)
+---| ---| ---|

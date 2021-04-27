@@ -1,4 +1,4 @@
-|[Back - Chapter 8](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Node-RED.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter ]
+|[Back - Chapter 8](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Node-RED.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter ](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Node-RED_Dashboard.md)
 ---| ---| ---|
 
 ---
@@ -49,15 +49,15 @@
 
 ![nrm2-1_mqtt_set](https://github.com/xuan103/MQTT/blob/main/document/png/nrm2-1_mqtt_set.png)
 
----
+>---
 
 ![nrm2-2_mqtt_set_ip](https://github.com/xuan103/MQTT/blob/main/document/png/nrm2-2_mqtt_set_ip.png)
 
----
+>---
 
 ![nrm2-3_mqtt_set_ok](https://github.com/xuan103/MQTT/blob/main/document/png/nrm2-3_mqtt_set_ok.png)
 
----
+>---
 
 ![nrm3_mqtt_debug](https://github.com/xuan103/MQTT/blob/main/document/png/nrm3_mqtt_debug.png)
 
@@ -65,11 +65,11 @@
 
 ![nrm4-1_line](https://github.com/xuan103/MQTT/blob/main/document/png/nrm4-1_line.png)
 
----
+>---
 
 ![nrm4-2_line_ok](https://github.com/xuan103/MQTT/blob/main/document/png/nrm4-2_line_ok.png)
 
----
+>---
 
 ![nrm5_bug](https://github.com/xuan103/MQTT/blob/main/document/png/nrm5_bug.png)
 
@@ -78,4 +78,5 @@
 ![nrm6_node-red_mqttlen_ok](https://github.com/xuan103/MQTT/blob/main/document/png/nrm6_node-red_mqttlen_ok.png)
 
 ---
-
+|[Back - Chapter 8](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Install_Node-RED.md)|[Contents](https://github.com/xuan103/MQTT/blob/main/README.md)| [Next - Chapter ](https://github.com/xuan103/MQTT/blob/main/document/AWS:%20EC2_Node-RED_Dashboard.md)
+---| ---| ---|
